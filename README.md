@@ -170,7 +170,7 @@ sns.boxplot(x="height",data=df5)
 ![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/10.png?raw=true)
 ## (3) Examine price_per_sqft column and use zscore of 3 to remove outliers.
 ## Dataset after removal of outlier using z score
-![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/11.png?raw=true)
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/11%60.png?raw=true)
 ## Shape of Dataset after removal of outlier using z score
 ![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/12.png?raw=true)
 ## price_per_sqft column after removing outliers
