@@ -39,6 +39,10 @@ Plot the datas using Box Plot
 ### CODE:
 ### (1) & (2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe:
 ```
+Developed by:D.R.Vinuthna.
+Ref no:212221230017
+```
+```
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -142,7 +146,65 @@ df5.shape
 sns.boxplot(x="height",data=df5)
 
 ```
-### OUTPUT
-### (1)(2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe
+## OUTPUT:
+## (1)(2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe
 ## Dataset
 ![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/1.png?raw=true)
+## Dataset Head
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/2.png?raw=true)
+## Dataset Info
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/3.png?raw=true)
+## Dataset Describe
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/4.png?raw=true)
+## Null Values
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/5.png?raw=true)
+## Dataset Shape
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/6.png?raw=true)
+## Box plot of price_per_sqft column with outliers
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/7.png?raw=true)
+## price_per_sqft - Dataset after removing outliers
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/8.png?raw=true)
+## price_per_sqft - Shape of Dataset after removing outliers
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/9.png?raw=true)
+## Box Plot of price_per_sqft column without outliers
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/10.png?raw=true)
+## (3) Examine price_per_sqft column and use zscore of 3 to remove outliers.
+## Dataset after removal of outlier using z score
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/11.png?raw=true)
+## Shape of Dataset after removal of outlier using z score
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/12.png?raw=true)
+## price_per_sqft column after removing outliers
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/13.png?raw=true)
+## (4) For the data set height_weight.csv detect weight and height outliers using IQR method
+## Dataset
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/14.png?raw=true)
+## Dataset Head
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/15.png?raw=true)
+## Dataset Info
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/16.png?raw=true)
+## Dataset Describe
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/17.png?raw=true)
+## Null Values
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/18.png?raw=true)
+## Dataset Shape
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/19.png?raw=true)
+## Weight - With outliers
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/20.png?raw=true)
+## Weight - Dataset after removing Outliers using IQR method
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/21.png?raw=true)
+## Weight - Shape of Dataset after removing Outliers using IQR method
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/22.png?raw=true)
+## Weight - Without Outliers using IQR method
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/23.png?raw=true)
+## Height - With outliers
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/24.png?raw=true)
+## Height - Dataset after removing Outliers using IQR method
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/25.png?raw=true)
+## Height - Shape of Dataset after removing Outliers using IQR method
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/26.png?raw=true)
+## Height - Without Outliers using IQR method
+![output](https://github.com/VINUTHNA-2004/Ex02-Outlier/blob/main/27.png?raw=true)
+
+## Result:
+The given datasets are read and outliers are detected and are removed using IQR and z-score methods.
+
