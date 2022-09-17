@@ -144,4 +144,5 @@ sns.boxplot(x="height",data=df5)
 ```
 ### OUTPUT
 ### (1)(2) Examine price_per_sqft column and use IQR to remove outliers and create new dataframe
+## Dataset
 
